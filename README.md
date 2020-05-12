@@ -12,3 +12,7 @@
 - 选择 checkbox 的包，进行下载
 - 对 template 的 deps 进行下载
 - 从 git 仓库中获取模板
+
+---
+
+参考地址：https://github.com/alienzhou/generator-webpack-kickoff/blob/master/generators/app/index.js
