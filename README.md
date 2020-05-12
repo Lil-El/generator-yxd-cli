@@ -1,38 +1,14 @@
-# generator-yxd-cli [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
-> yeoman test
+# generator-yxd-cli
 
-## Installation
+## Useage
 
-First, install [Yeoman](http://yeoman.io) and generator-yxd-cli using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
+- 通过 npm link 或将该 depo 发布到 npm 上
+- node 的全局上拥有 generator-yxd-cli 包
+- yo yxd-cli 构建项目
 
-```bash
-npm install -g yo
-npm install -g generator-yxd-cli
-```
+## Function
 
-Then generate your new project:
-
-```bash
-yo yxd-cli
-```
-
-## Getting To Know Yeoman
-
- * Yeoman has a heart of gold.
- * Yeoman is a person with feelings and opinions, but is very easy to work with.
- * Yeoman can be too opinionated at times but is easily convinced not to be.
- * Feel free to [learn more about Yeoman](http://yeoman.io/).
-
-## License
-
-Apache-2.0 © [Lil-El]()
-
-
-[npm-image]: https://badge.fury.io/js/generator-yxd-cli.svg
-[npm-url]: https://npmjs.org/package/generator-yxd-cli
-[travis-image]: https://travis-ci.com//generator-yxd-cli.svg?branch=master
-[travis-url]: https://travis-ci.com//generator-yxd-cli
-[daviddm-image]: https://david-dm.org//generator-yxd-cli.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org//generator-yxd-cli
-[coveralls-image]: https://coveralls.io/repos//generator-yxd-cli/badge.svg
-[coveralls-url]: https://coveralls.io/r//generator-yxd-cli
+- 根据 ejs，动态传入 ejs 需要的变量
+- 选择 checkbox 的包，进行下载
+- 对 template 的 deps 进行下载
+- 从 git 仓库中获取模板
