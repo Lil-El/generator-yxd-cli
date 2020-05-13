@@ -86,7 +86,6 @@ module.exports = class extends Generator {
 
   initializing() {
     this.log();
-
     const version = `(v${pkg.version})`;
     const messages = [];
     messages.push(
